@@ -1,13 +1,15 @@
 var eLetter = ["B", "C", "D", "E", "G", "P", "T", "V", "Z"];
 var secondLetter = ["9", "i"]
 var thirdLetter = ["a", "k"]
-
+var links = document.getElementById("links");
 var number = 1;
 
 function newLink (i, j, k, l, m, number) {
-    
+    links.innerHTML = links.innerHTML + number.toString();
     var lineBreak = document.createElement("br");
+    links.appendChild(lineBreak);
     var link = "goo.gl/" + i + j + k + l + m + "d";
+    links.innerHTML = links.innerHTML + link;
 }
     
 
