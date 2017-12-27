@@ -18,7 +18,7 @@ for (i = 0; i < eLetter.length; i++) {
         for (k = 0; k < thirdLetter.length; k++) {
             for (l = 0; l < eLetter.length; l++) {
                 for (m = 0; m < eLetter.length; m++) {
-                    newlink(i, j, k, l, m, number);
+                    newLink(i, j, k, l, m, number);
                     number = number + 1;
                 }
             }
